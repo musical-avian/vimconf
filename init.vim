@@ -3,9 +3,12 @@ syntax on
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-"set expandtab
-set autoindent
-set smartindent
+set expandtab
+set autoindent  " not needed when smartindent/cindent?
+
+set smartindent  " maybe obsolete?
+filetype indent on
+set cindent
 set termguicolors
 set number
 set colorcolumn=80
